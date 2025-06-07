@@ -26,7 +26,7 @@ namespace WebApiProje.Extensions.QueryBuilder
                 whereClauses.Add($"HizmetNoktasi.BitisNoktasi LIKE '%{request.BitisNoktasi}%'");
 
             if (request.AktifMi.IsNotNull())
-                whereClauses.Add($"HizmetNoktasi.AktifMi = '{request.AktifMi}'");
+                whereClauses.Add($"HizmetNoktasi.AktifMi = {(request.AktifMi.Value ? 1 : 0)}");
 
             if (whereClauses.Any())
             {

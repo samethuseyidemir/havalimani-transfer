@@ -20,7 +20,7 @@ namespace WebApiProje.Extensions.QueryBuilder
                 whereClauses.Add($"Fatura.RezervasyonId = '{request.RezervasyonId}'");
 
             if (request.AktifMi.IsNotNull())
-                whereClauses.Add($"Fatura.AktifMi = '{request.AktifMi}'");
+                whereClauses.Add($"Fatura.AktifMi = {(request.AktifMi.Value ? 1 : 0)}");
 
             if (whereClauses.Any())
             {

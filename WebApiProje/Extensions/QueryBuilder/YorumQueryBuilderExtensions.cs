@@ -20,7 +20,7 @@ namespace WebApiProje.Extensions.QueryBuilder
                 whereClauses.Add($"Yorum.KullaniciId = '{request.KullaniciId}'");
 
             if (request.AktifMi.IsNotNull())
-                whereClauses.Add($"Yorum.AktifMi = '{request.AktifMi}'");
+                whereClauses.Add($"Yorum.AktifMi = {(request.AktifMi.Value ? 1 : 0)}");
 
             if (whereClauses.Any())
             {

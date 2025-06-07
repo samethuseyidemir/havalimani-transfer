@@ -26,7 +26,7 @@ namespace WebApiProje.Extensions.QueryBuilder
                 whereClauses.Add($"Transfer.AracId = '{request.AracId}'");
 
             if (request.AktifMi.IsNotNull())
-                whereClauses.Add($"Transfer.AktifMi = '{request.AktifMi}'");
+                whereClauses.Add($"Transfer.AktifMi = {(request.AktifMi.Value ? 1 : 0)}");
 
             if (whereClauses.Any())
             {

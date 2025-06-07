@@ -22,7 +22,7 @@ namespace WebApiProje.Extensions.QueryBuilder
                 whereClauses.Add($"Rezervasyon.TransferId = {request.TransferId}");
 
             if (request.AktifMi.HasValue)
-                whereClauses.Add($"Rezervasyon.AktifMi = '{(request.AktifMi.Value ? 1 : 0)}'");
+                whereClauses.Add($"Rezervasyon.AktifMi = {(request.AktifMi.Value ? 1 : 0)}");
 
             if (!string.IsNullOrEmpty(request.KullaniciAdSoyad))
                 whereClauses.Add($"(Kullanici.Ad + ' ' + Kullanici.Soyad) LIKE '%{request.KullaniciAdSoyad}%'");
@@ -62,7 +62,7 @@ namespace WebApiProje.Extensions.QueryBuilder
                 whereClauses.Add($"Rezervasyon.TransferId = {request.TransferId}");
 
             if (request.AktifMi.HasValue)
-                whereClauses.Add($"Rezervasyon.AktifMi = '{(request.AktifMi.Value ? 1 : 0)}'");
+                whereClauses.Add($"Rezervasyon.AktifMi = {(request.AktifMi.Value ? 1 : 0)}");
 
             if (!string.IsNullOrEmpty(request.KullaniciAdSoyad))
                 whereClauses.Add($"(Kullanici.Ad + ' ' + Kullanici.Soyad) LIKE '%{request.KullaniciAdSoyad}%'");
