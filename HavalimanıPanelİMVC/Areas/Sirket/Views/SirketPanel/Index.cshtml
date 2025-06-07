@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutSirket.cshtml";
+    ViewData["Title"] = "Şirket Paneli";
+}
+
+<h2 class="mb-4">🚐 Şirket Paneli</h2>
+
+<div class="row g-3">
+    <div class="col-md-4">
+        <a asp-area="Sirket" asp-controller="Arac" asp-action="Index" class="card text-decoration-none text-dark">
+            <div class="card-body text-center">
+                <i class="bi bi-car-front-fill fs-1"></i>
+                <h5 class="card-title mt-2">Araçlarım</h5>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a asp-area="Sirket" asp-controller="HizmetNoktasi" asp-action="Index" class="card text-decoration-none text-dark">
+            <div class="card-body text-center">
+                <i class="bi bi-geo-alt-fill fs-1"></i>
+                <h5 class="card-title mt-2">Hizmet Noktaları</h5>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a asp-area="Sirket" asp-controller="SirketPanel" asp-action="Index" class="card text-decoration-none text-dark">
+            <div class="card-body text-center">
+                <i class="bi bi-speedometer2 fs-1"></i>
+                <h5 class="card-title mt-2">Genel Bakış</h5>
+            </div>
+        </a>
+    </div>
+</div>

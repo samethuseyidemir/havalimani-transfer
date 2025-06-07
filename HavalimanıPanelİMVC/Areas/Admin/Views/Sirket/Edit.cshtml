@@ -1,0 +1,56 @@
+﻿@model HavalimaniPanelMVC.Models.SirketUpdateViewModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Şirket Düzenle";
+}
+
+<h2 class="mb-4">Şirket Düzenle</h2>
+
+<form asp-area="Admin"
+      asp-controller="Sirket"
+      asp-action="Edit"
+      method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Ad" class="form-label">Şirket Adı</label>
+        <input asp-for="Ad" class="form-control" />
+        <span asp-validation-for="Ad" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="VergiNo" class="form-label">Vergi No</label>
+        <input asp-for="VergiNo" class="form-control" />
+        <span asp-validation-for="VergiNo" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Telefon" class="form-label">Telefon</label>
+        <input asp-for="Telefon" class="form-control" />
+        <span asp-validation-for="Telefon" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">E-posta</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Adres" class="form-label">Adres</label>
+        <input asp-for="Adres" class="form-control" />
+        <span asp-validation-for="Adres" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+    <a asp-area="Admin"
+       asp-controller="Sirket"
+       asp-action="Index"
+       class="btn btn-secondary ms-2">İptal</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

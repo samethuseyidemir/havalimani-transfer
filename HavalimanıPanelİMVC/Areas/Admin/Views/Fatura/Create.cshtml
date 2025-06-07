@@ -1,0 +1,50 @@
+﻿@model HavalimaniPanelMVC.Models.Fatura
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Yeni Fatura Ekle";
+}
+
+<h2 class="mb-4 text-success">Yeni Fatura Ekle</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label class="form-label">Rezervasyon ID</label>
+        <input asp-for="RezervasyonId" type="number" class="form-control" />
+        <span asp-validation-for="RezervasyonId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Tutar (₺)</label>
+        <input asp-for="Tutar" type="number" class="form-control" step="0.01" />
+        <span asp-validation-for="Tutar" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Fatura Tarihi</label>
+        <input asp-for="FaturaTarihi" type="date" class="form-control" />
+        <span asp-validation-for="FaturaTarihi" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Durum</label>
+        <select asp-for="AktifMi" class="form-select">
+            <option value="true">Aktif</option>
+            <option value="false">Pasif</option>
+        </select>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <a asp-action="Index" class="btn btn-secondary">Geri Dön</a>
+        <button type="submit" class="btn btn-success">Kaydet</button>
+    </div>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+    }
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

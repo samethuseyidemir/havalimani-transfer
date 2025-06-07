@@ -1,0 +1,14 @@
+﻿namespace HavalimaniPanelMVC.Models
+{
+    public class HizmetNoktasiViewModel
+    {
+        public int Id { get; set; }
+        public int SirketId { get; set; }
+        public string BaslangicNoktasi { get; set; }
+        public string BitisNoktasi { get; set; }
+        public decimal? MesafeKm { get; set; }
+        public int? TahminiSureDakika { get; set; }
+        public bool AktifMi { get; set; }
+        public DateTime KayitTarihi { get; set; }
+    }
+}

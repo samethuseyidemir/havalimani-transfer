@@ -1,0 +1,53 @@
+﻿@model HavalimaniPanelMVC.Models.HizmetNoktasiCreateViewModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutSirket.cshtml";
+    ViewData["Title"] = "➕ Yeni Hizmet Noktası";
+}
+
+<h2 class="mb-4">➕ Yeni Hizmet Noktası</h2>
+
+<div class="mb-3">
+    <a asp-area="Sirket" asp-controller="HizmetNoktasi" asp-action="Index" class="btn btn-secondary">
+        ↩️ Geri Dön
+    </a>
+</div>
+
+<form asp-area="Sirket" asp-controller="HizmetNoktasi" asp-action="Create" method="post">
+
+    <div class="mb-3">
+        <label asp-for="BaslangicNoktasi" class="form-label">Başlangıç Noktası</label>
+        <input asp-for="BaslangicNoktasi" class="form-control" />
+        <span asp-validation-for="BaslangicNoktasi" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="BitisNoktasi" class="form-label">Bitiş Noktası</label>
+        <input asp-for="BitisNoktasi" class="form-control" />
+        <span asp-validation-for="BitisNoktasi" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MesafeKm" class="form-label">Mesafe (km)</label>
+        <input asp-for="MesafeKm" type="number" class="form-control" />
+        <span asp-validation-for="MesafeKm" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="TahminiSureDakika" class="form-label">Süre (dk)</label>
+        <input asp-for="TahminiSureDakika" type="number" class="form-control" />
+        <span asp-validation-for="TahminiSureDakika" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">✔️ Kaydet</button>
+
+    @if (ViewBag.Hata != null)
+    {
+        <div class="alert alert-danger mt-3">@ViewBag.Hata</div>
+    }
+</form>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+}

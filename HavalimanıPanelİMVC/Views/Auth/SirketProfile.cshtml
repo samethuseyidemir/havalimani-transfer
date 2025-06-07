@@ -1,0 +1,64 @@
+﻿@model HavalimaniPanelMVC.Models.SirketProfileViewModel
+
+@{
+    ViewData["Title"] = "Şirket Profil Tamamlama";
+}
+
+<section class="vh-100 d-flex justify-content-center align-items-center bg-light">
+    <div class="card shadow p-4 border-0" style="width:100%; max-width: 500px;">
+        <div class="text-center mb-4">
+            <i class="bi bi-building display-4 text-warning"></i>
+            <h4 class="mt-2 fw-bold">Şirket Profil Tamamlama</h4>
+            <p class="text-muted small">Lütfen eksik bilgilerinizi doldurun ve belgelerinizi yükleyin</p>
+        </div>
+
+        <form method="post" asp-action="SirketProfile" enctype="multipart/form-data">
+            <input type="hidden" asp-for="KullaniciId" />
+
+            <div class="mb-3">
+                <label asp-for="Ad" class="form-label">Şirket Adı</label>
+                <input asp-for="Ad" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Ad)</span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="VergiNo" class="form-label">Vergi No</label>
+                <input asp-for="VergiNo" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.VergiNo)</span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Telefon" class="form-label">Telefon</label>
+                <input asp-for="Telefon" class="form-control" />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Telefon)</span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">E-posta</label>
+                <input asp-for="Email" class="form-control" type="email" />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Email)</span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Adres" class="form-label">Adres</label>
+                <textarea asp-for="Adres" class="form-control" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="LogoDosya" class="form-label">Logo Yükle</label>
+                <input asp-for="LogoDosya" class="form-control" type="file" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="FaaliyetBelgesiDosya" class="form-label">Faaliyet Belgesi (PDF)</label>
+                <input asp-for="FaaliyetBelgesiDosya" class="form-control" type="file" accept=".pdf" />
+            </div>
+
+            <button type="submit" class="btn btn-warning w-100">Profil Tamamla ve Gönder</button>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+            }
+            @if (ViewBag.Success != null)
+            {
+                <div class="alert alert-success mt-3">@ViewBag.Success</div>
+            }
+        </form>
+    </div>
+</section>

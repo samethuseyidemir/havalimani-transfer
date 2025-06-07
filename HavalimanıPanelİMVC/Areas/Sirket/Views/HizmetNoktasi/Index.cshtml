@@ -1,0 +1,69 @@
+﻿@model List<HavalimaniPanelMVC.Models.HizmetNoktasiViewModel>
+
+@{
+    Layout = "~/Views/Shared/_LayoutSirket.cshtml";
+    ViewData["Title"] = "Hizmet Noktaları";
+}
+
+<h2 class="mb-4">📍 Hizmet Noktaları</h2>
+
+<div class="mb-3">
+    <a asp-area="Sirket"
+       asp-controller="HizmetNoktasi"
+       asp-action="Create"
+       class="btn btn-primary">
+        ➕ Yeni Hizmet Noktası Ekle
+    </a>
+</div>
+
+@if (TempData["Basarili"] != null)
+{
+    <div class="alert alert-success">@TempData["Basarili"]</div>
+}
+@if (ViewBag.Hata != null)
+{
+    <div class="alert alert-danger">@ViewBag.Hata</div>
+}
+
+<table class="table table-bordered table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>#</th>
+            <th>Başlangıç</th>
+            <th>Bitiş</th>
+            <th>Mesafe</th>
+            <th>Süre</th>
+            <th>Durum</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var h in Model)
+        {
+            <tr>
+                <td>@h.Id</td>
+                <td>@h.BaslangicNoktasi</td>
+                <td>@h.BitisNoktasi</td>
+                <td>@(h.MesafeKm.HasValue ? $"{h.MesafeKm.Value:0.0} km" : "–")</td>
+                <td>@(h.TahminiSureDakika.HasValue ? $"{h.TahminiSureDakika.Value} dk" : "–")</td>
+                <td>@(h.AktifMi ? "Aktif" : "Pasif")</td>
+                <td>
+                    <a asp-area="Sirket"
+                       asp-controller="HizmetNoktasi"
+                       asp-action="Edit"
+                       asp-route-id="@h.Id"
+                       class="btn btn-sm btn-warning me-1">
+                        Düzenle
+                    </a>
+                    <a asp-area="Sirket"
+                       asp-controller="HizmetNoktasi"
+                       asp-action="Delete"
+                       asp-route-id="@h.Id"
+                       class="btn btn-sm btn-danger">
+                        Sil
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,273 @@
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\appsettings.json
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\WebApiProje.exe
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\WebApiProje.deps.json
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\WebApiProje.runtimeconfig.json
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\WebApiProje.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\WebApiProje.pdb
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.AssemblyReference.cache
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfoInputs.cache
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfo.cs
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProje.props
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProje.props
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProje.props
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\scopedcss\bundle\WebApiProje.styles.css
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiPr.175670E1.Up2Date
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\refint\WebApiProje.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.pdb
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\WebApiProje.genruntimeconfig.cache
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\obj\Debug\net8.0\ref\WebApiProje.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\Dapper.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\Core.dll
+C:\Users\Serdar\source\repos\WebApiProje\WebApiProje\bin\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\appsettings.json
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\WebApiProje.exe
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\WebApiProje.deps.json
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\WebApiProje.runtimeconfig.json
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\WebApiProje.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\Dapper.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\bin\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.AssemblyReference.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfoInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfo.cs
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProje.props
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProje.props
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProje.props
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\scopedcss\bundle\WebApiProje.styles.css
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiPr.175670E1.Up2Date
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\refint\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\WebApiProje.genruntimeconfig.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\WebApiProje\obj\Debug\net8.0\ref\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.AssemblyReference.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfoInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfo.cs
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\refint\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\appsettings.json
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\WebApiProje.exe
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\WebApiProje.deps.json
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\WebApiProje.runtimeconfig.json
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\WebApiProje.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\Dapper.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\bin\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProje.props
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProje.props
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProje.props
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\scopedcss\bundle\WebApiProje.styles.css
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiPr.175670E1.Up2Date
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\WebApiProje.genruntimeconfig.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje3\WebApiProje\obj\Debug\net8.0\ref\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\appsettings.json
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.exe
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.deps.json
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.runtimeconfig.json
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\Dapper.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\bin\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.AssemblyReference.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfoInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfo.cs
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProje.props
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProje.props
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProje.props
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\scopedcss\bundle\WebApiProje.styles.css
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiPr.175670E1.Up2Date
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\refint\WebApiProje.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.genruntimeconfig.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje4\WebApiProje\obj\Debug\net8.0\ref\WebApiProje.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\appsettings.Development.json
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\appsettings.json
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.exe
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.deps.json
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.runtimeconfig.json
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.pdb
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\Dapper.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.Data.SqlClient.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\Core.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\bin\Debug\net8.0\Core.pdb
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.AssemblyReference.cache
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfoInputs.cache
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfo.cs
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.CoreCompileInputs.cache
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cs
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cache
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets.build.json
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets.development.json
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProje.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProje.props
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProje.props
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProje.props
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\scopedcss\bundle\WebApiProje.styles.css
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiPr.175670E1.Up2Date
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\refint\WebApiProje.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.pdb
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.genruntimeconfig.cache
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\WebApiProje\obj\Debug\net8.0\ref\WebApiProje.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\appsettings.json
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.staticwebassets.runtime.json
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.exe
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.deps.json
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.runtimeconfig.json
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\WebApiProje.pdb
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Dapper.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Core.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\bin\Debug\net8.0\Core.pdb
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.AssemblyReference.cache
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfoInputs.cache
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.AssemblyInfo.cs
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.csproj.CoreCompileInputs.cache
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.WebApiProje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApiProje.props
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApiProje.props
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApiProje.props
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\scopedcss\bundle\WebApiProje.styles.css
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiPr.175670E1.Up2Date
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\refint\WebApiProje.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.pdb
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\WebApiProje.genruntimeconfig.cache
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\WebApiProje\obj\Debug\net8.0\ref\WebApiProje.dll

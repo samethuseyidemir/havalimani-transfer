@@ -1,0 +1,28 @@
+﻿@model HavalimaniPanelMVC.Models.Kullanici
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+    <!-- Ad -->
+    <input asp-for="Ad" class="form-control" />
+    <!-- Soyad -->
+    <input asp-for="Soyad" class="form-control" />
+    <!-- Email -->
+    <input asp-for="Email" class="form-control" />
+    <!-- Sifre -->
+    <input asp-for="Sifre" type="password" class="form-control" />
+    <!-- Telefon -->
+    <input asp-for="Telefon" class="form-control" />
+    <!-- RolId -->
+    <select asp-for="RolId" class="form-control">
+        <option value="1">Admin</option>
+        <option value="2">Şirket</option>
+        <option value="3">Kullanıcı</option>
+    </select>
+    <!-- AktifMi -->
+    <select asp-for="AktifMi" class="form-control">
+        <option value="true">Aktif</option>
+        <option value="false">Pasif</option>
+    </select>
+    <!-- Submit -->
+    <button type="submit" class="btn btn-success">Kaydet</button>
+</form>

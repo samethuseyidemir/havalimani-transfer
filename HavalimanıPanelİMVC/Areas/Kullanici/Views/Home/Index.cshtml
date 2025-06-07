@@ -1,0 +1,47 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Kullanıcı Paneli";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-4">
+        <h2 class="text-primary">Merhaba, @ViewBag.AdSoyad 👋</h2>
+        <p class="lead">Havalimanı transfer hizmetlerine hoş geldiniz.</p>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <div class="card text-white bg-success shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Toplam Rezervasyon</h5>
+                    <p class="card-text fs-4">15</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-warning shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Yaklaşan Transfer</h5>
+                    <p class="card-text fs-4">2</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-info shadow">
+                <div class="card-body">
+                    <h5 class="card-title">Tamamlanan Transfer</h5>
+                    <p class="card-text fs-4">10</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a asp-area="Kullanici" asp-controller="Transfer" asp-action="Index" class="btn btn-primary btn-lg me-3">
+            🚕 Transfer Ara
+        </a>
+        <a asp-area="Kullanici" asp-controller="Rezervasyon" asp-action="Index" class="btn btn-outline-dark btn-lg">
+            📋 Rezervasyonlarım
+        </a>
+    </div>
+</div>

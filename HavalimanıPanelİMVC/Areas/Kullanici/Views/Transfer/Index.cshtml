@@ -1,0 +1,65 @@
+﻿@model HavalimaniPanelMVC.Models.TransferAramaModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Transfer Ara";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4 text-primary">Transfer Ara</h2>
+
+    <form asp-action="Index" method="post">
+        <div class="mb-3">
+            <label class="form-label">Başlangıç Noktası</label>
+            <input asp-for="BaslangicNoktasi" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Bitiş Noktası</label>
+            <input asp-for="BitisNoktasi" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Tarih / Saat</label>
+            <input asp-for="TarihSaat" type="datetime-local" class="form-control" required />
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">🚗 Uygun Transferleri Listele</button>
+        </div>
+    </form>
+    @if (Model?.Sonuclar != null && Model.Sonuclar.Any())
+    {
+        <h3 class="mt-5">Uygun Transferler</h3>
+        <table class="table table-bordered mt-2">
+            <thead class="table-light">
+                <tr>
+                    <th>Başlangıç</th>
+                    <th>Bitiş</th>
+                    <th>Tarih / Saat</th>
+                    <th>Fiyat</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var t in Model.Sonuclar)
+                {
+                    <tr>
+                        <td>@t.BaslangicNoktasi</td>
+                        <td>@t.BitisNoktasi</td>
+                        <td>@t.TarihSaat.ToString("g")</td>
+                        <td>@t.Ucret ₺</td>
+                        <td>
+                            <a asp-area="Kullanici" asp-controller="Rezervasyon" asp-action="Create" asp-route-transferId="@t.Id" class="btn btn-success btn-sm">
+                                Rezervasyon Yap
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+
+</div>

@@ -1,0 +1,54 @@
+﻿@model HavalimaniPanelMVC.Models.TransferCreateViewModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Yeni Transfer Ekle";
+}
+
+<h2 class="mb-4 text-success">Yeni Transfer Ekle</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Başlangıç Noktası</label>
+        <input asp-for="BaslangicNoktasi" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Bitiş Noktası</label>
+        <input asp-for="BitisNoktasi" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Tarih / Saat</label>
+        <input asp-for="TarihSaat" type="datetime-local" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ücret</label>
+        <input asp-for="Ucret" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Araç Seç</label>
+        <select asp-for="AracId" class="form-select">
+            <option value="">-- Seçiniz --</option>
+            @foreach (var a in Model.Araclar)
+            {
+                <option value="@a.Id">@a.Plaka</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Durum</label>
+        <select asp-for="AktifMi" class="form-select">
+            <option value="true">Aktif</option>
+            <option value="false">Pasif</option>
+        </select>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <a asp-action="Index" class="btn btn-secondary">Geri Dön</a>
+        <button type="submit" class="btn btn-success">Kaydet</button>
+    </div>
+</form>

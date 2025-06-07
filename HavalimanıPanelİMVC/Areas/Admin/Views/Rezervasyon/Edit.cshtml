@@ -1,0 +1,38 @@
+﻿@model HavalimaniPanelMVC.Models.Rezervasyon
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Rezervasyon Düzenle";
+}
+
+<h2 class="text-warning mb-3">Rezervasyon Düzenle</h2>
+
+<form asp-action="Edit" method="post" class="row g-3">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="col-md-6">
+        <label class="form-label">Kullanıcı</label>
+        <select asp-for="KullaniciId" class="form-select" asp-items="@(new SelectList(ViewBag.Kullanicilar, "Id", "AdSoyad", Model.KullaniciId))">
+            <option value="">-- Seçiniz --</option>
+        </select>
+    </div>
+
+    <div class="col-md-6">
+        <label class="form-label">Transfer</label>
+        <select asp-for="TransferId" class="form-select" asp-items="@(new SelectList(ViewBag.Transferler, "Id", "Guzergah", Model.TransferId))">
+            <option value="">-- Seçiniz --</option>
+        </select>
+    </div>
+
+    <div class="col-md-6">
+        <label class="form-label">Rezervasyon Tarihi</label>
+        <input type="datetime-local" asp-for="RezervasyonTarihi" class="form-control" />
+    </div>
+
+    <div class="col-12">
+        <button type="submit" class="btn btn-warning">
+            <i class="bi bi-pencil-square"></i> Güncelle
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">İptal</a>
+    </div>
+</form>

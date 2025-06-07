@@ -1,0 +1,53 @@
+﻿@model List<HavalimaniPanelMVC.Models.Arac>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Araç Listesi";
+}
+
+<h2 class="mb-4 text-primary">Araçlar</h2>
+
+<div class="mb-3">
+    
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Marka</th>
+            <th>Model</th>
+            <th>Plaka</th>
+            <th>Koltuk</th>
+            <th>Bagaj</th>
+            <th>Şirket</th>
+            <th>Aktif</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Marka</td>
+                <td>@item.Model</td>
+                <td>@item.Plaka</td>
+                <td>@item.KoltukSayisi</td>
+                <td>@item.BagajKapasitesi</td>
+                <td>@item.SirketAdi</td>
+                <td>@(item.AktifMi ? "Evet" : "Hayır")</td>
+                <td>
+                   
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@item.Id" />
+                      
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+}

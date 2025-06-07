@@ -1,0 +1,38 @@
+﻿@model HavalimaniPanelMVC.Models.Arac
+
+@{
+    Layout = "~/Views/Shared/_LayoutSirket.cshtml";
+    ViewData["Title"] = "🗑️ Araç Sil";
+}
+
+<h2 class="mb-4">🗑️ Araç Sil</h2>
+
+<div class="alert alert-danger">
+    Bu aracı silmek istediğinize emin misiniz?
+</div>
+
+<form asp-area="Sirket" asp-controller="Arac" asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <dl class="row">
+        <dt class="col-sm-2">Marka</dt>
+        <dd class="col-sm-10">@Model.Marka</dd>
+
+        <dt class="col-sm-2">Model</dt>
+        <dd class="col-sm-10">@Model.Model</dd>
+
+        <dt class="col-sm-2">Plaka</dt>
+        <dd class="col-sm-10">@Model.Plaka</dd>
+
+        <dt class="col-sm-2">Koltuk Sayısı</dt>
+        <dd class="col-sm-10">@Model.KoltukSayisi</dd>
+
+        <dt class="col-sm-2">Bagaj Kapasitesi</dt>
+        <dd class="col-sm-10">@Model.BagajKapasitesi</dd>
+
+        <dt class="col-sm-2">Durum</dt>
+        <dd class="col-sm-10">@((Model.AktifMi) ? "Aktif" : "Pasif")</dd>
+    </dl>
+
+    <button type="submit" class="btn btn-danger">Sil</button>
+    <a asp-area="Sirket" asp-controller="Arac" asp-action="Index" class="btn btn-secondary ms-2">İptal</a>
+</form>

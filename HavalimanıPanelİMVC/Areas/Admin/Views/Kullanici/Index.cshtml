@@ -1,0 +1,62 @@
+﻿@model List<HavalimaniPanelMVC.Models.Kullanici>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Kullanıcı Listesi";
+}
+
+<h2 class="mb-4 text-primary">Kullanıcı Listesi</h2>
+
+<a href="/Admin/Kullanici/Create" class="btn btn-success mb-3">
+    <i class="bi bi-plus-lg"></i> Yeni Kullanıcı Ekle
+</a>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>Ad</th>
+                <th>Soyad</th>
+                <th>Email</th>
+                <th>Telefon</th>
+                <th>Rol</th>
+                <th>Durum</th>
+                <th style="width: 150px;">İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var k in Model)
+            {
+                <tr>
+                    <td>@k.Ad</td>
+                    <td>@k.Soyad</td>
+                    <td>@k.Email</td>
+                    <td>@k.Telefon</td>
+                    <td>
+                        @(k.RolId == 1 ? "Admin" : k.RolId == 2 ? "Şirket" : "Kullanıcı")
+                    </td>
+                    <td>
+                        @if (k.AktifMi)
+                        {
+                            <span class="badge bg-success">Aktif</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Pasif</span>
+                        }
+                    </td>
+                    <td>
+                        <a href="/Admin/Kullanici/Edit/@k.Id" class="btn btn-sm btn-warning">
+                            <i class="bi bi-pencil-square"></i>
+                        </a>
+                        <a href="/Admin/Kullanici/Delete/@k.Id"
+                           onclick="return confirm('Bu kullanıcıyı silmek istediğinize emin misiniz?');"
+                           class="btn btn-sm btn-danger">
+                            <i class="bi bi-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

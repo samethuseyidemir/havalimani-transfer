@@ -1,0 +1,215 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HavalimanıPanelMVC
+build_property.RootNamespace = HavalimanıPanelMVC
+build_property.ProjectDir = C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\HavalimanıPanelİMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\HavalimanıPanelİMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Arac/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJhY1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Fatura/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmF0dXJhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Fatura/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmF0dXJhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Fatura/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmF0dXJhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Kullanici/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS3VsbGFuaWNpXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Kullanici/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS3VsbGFuaWNpXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Kullanici/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS3VsbGFuaWNpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Rezervasyon/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmV6ZXJ2YXN5b25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Rezervasyon/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmV6ZXJ2YXN5b25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Rezervasyon/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmV6ZXJ2YXN5b25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Rezervasyon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmV6ZXJ2YXN5b25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Sirket/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2lya2V0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Sirket/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2lya2V0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Sirket/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2lya2V0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Sirket/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2lya2V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Transfer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbnNmZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Transfer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbnNmZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/Transfer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVHJhbnNmZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Kullanici/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Kullanici/Views/Rezervasyon/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXFJlemVydmFzeW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Kullanici/Views/Transfer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXFRyYW5zZmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Kullanici/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcS3VsbGFuaWNpXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Sirket/Views/Arac/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2lya2V0XFZpZXdzXEFyYWNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Sirket/Views/Arac/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2lya2V0XFZpZXdzXEFyYWNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Sirket/Views/Arac/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2lya2V0XFZpZXdzXEFyYWNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Sirket/Views/Arac/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2lya2V0XFZpZXdzXEFyYWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Sirket/Views/HizmetNoktasi/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2lya2V0XFZpZXdzXEhpem1ldE5va3Rhc2lcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Sirket/Views/HizmetNoktasi/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2lya2V0XFZpZXdzXEhpem1ldE5va3Rhc2lcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Sirket/Views/HizmetNoktasi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2lya2V0XFZpZXdzXEhpem1ldE5va3Rhc2lcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Sirket/Views/SirketPanel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2lya2V0XFZpZXdzXFNpcmtldFBhbmVsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Areas/Sirket/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2lya2V0XFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Auth/GoogleResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxHb29nbGVSZXNwb25zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Auth/SirketProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaXJrZXRQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Auth/SirketRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxTaXJrZXRSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Home/SearchResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hSZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Shared/_LayoutSirket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTaXJrZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/OneDrive - Akdeniz Üniversitesi/Masaüstü/HavalimanıProj/WebApiProje4/HavalimanıPanelİMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mtxmwv9fai

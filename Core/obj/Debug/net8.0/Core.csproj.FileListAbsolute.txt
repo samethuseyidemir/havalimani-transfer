@@ -1,0 +1,72 @@
+C:\Users\Serdar\source\repos\WebApiProje\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\Serdar\source\repos\WebApiProje\Core\bin\Debug\net8.0\Core.dll
+C:\Users\Serdar\source\repos\WebApiProje\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\Serdar\source\repos\WebApiProje\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Serdar\source\repos\WebApiProje\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serdar\source\repos\WebApiProje\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\Serdar\source\repos\WebApiProje\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\Serdar\source\repos\WebApiProje\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\source\repos\WebApiProje\Core\obj\Debug\net8.0\Core.dll
+C:\Users\Serdar\source\repos\WebApiProje\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\Serdar\source\repos\WebApiProje\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\Serdar\source\repos\WebApiProje\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\bin\Debug\net8.0\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\obj\Debug\net8.0\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje web api 2.hafta güzel örnek\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\bin\Debug\net8.0\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\obj\Debug\net8.0\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje3\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\bin\Debug\net8.0\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\obj\Debug\net8.0\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\Serdar\Desktop\Api\WebApiProje4\Core\obj\Debug\net8.0\ref\Core.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\bin\Debug\net8.0\Core.deps.json
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\bin\Debug\net8.0\Core.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\bin\Debug\net8.0\Core.pdb
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\obj\Debug\net8.0\Core.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\obj\Debug\net8.0\refint\Core.dll
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\obj\Debug\net8.0\Core.pdb
+D:\Dersler\2024-2025 Bahar (Güncel Dönem)\İnternet Programcılığı 2\Api\WebApiProje4\WebApiProje4\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\bin\Debug\net8.0\Core.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\obj\Debug\net8.0\Core.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\pc\OneDrive - Akdeniz Üniversitesi\Masaüstü\HavalimanıProj\WebApiProje4\Core\obj\Debug\net8.0\ref\Core.dll

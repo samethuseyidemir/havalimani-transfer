@@ -1,0 +1,52 @@
+﻿@model HavalimaniPanelMVC.Models.Arac
+
+@{
+    Layout = "~/Views/Shared/_LayoutSirket.cshtml";
+    ViewData["Title"] = "✏️ Araç Düzenle";
+}
+
+<h2 class="mb-4">✏️ Araç Düzenle</h2>
+
+<form asp-area="Sirket" asp-controller="Arac" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Marka" class="form-label"></label>
+        <input asp-for="Marka" class="form-control" />
+        <span asp-validation-for="Marka" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Model" class="form-label"></label>
+        <input asp-for="Model" class="form-control" />
+        <span asp-validation-for="Model" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Plaka" class="form-label"></label>
+        <input asp-for="Plaka" class="form-control" />
+        <span asp-validation-for="Plaka" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="KoltukSayisi" class="form-label"></label>
+        <input asp-for="KoltukSayisi" type="number" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="BagajKapasitesi" class="form-label"></label>
+        <input asp-for="BagajKapasitesi" type="number" class="form-control" />
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="AktifMi" class="form-check-input" />
+        <label asp-for="AktifMi" class="form-check-label"></label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+    <a asp-area="Sirket" asp-controller="Arac" asp-action="Index" class="btn btn-secondary ms-2">İptal</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

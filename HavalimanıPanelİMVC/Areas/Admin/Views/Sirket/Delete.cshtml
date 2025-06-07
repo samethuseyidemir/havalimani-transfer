@@ -1,0 +1,29 @@
+﻿@model HavalimaniPanelMVC.Models.SirketModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Şirket Sil";
+}
+
+<h2 class="text-danger mb-3">Şirket Sil</h2>
+
+<div class="alert alert-warning">
+    <strong>@Model.Ad</strong> adlı şirketi silmek istediğinize emin misiniz?
+</div>
+
+<dl class="row">
+    <dt class="col-sm-3">Telefon</dt>
+    <dd class="col-sm-9">@Model.Telefon</dd>
+
+    <dt class="col-sm-3">Email</dt>
+    <dd class="col-sm-9">@Model.Email</dd>
+
+    <dt class="col-sm-3">Vergi No</dt>
+    <dd class="col-sm-9">@Model.VergiNo</dd>
+</dl>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Sil</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

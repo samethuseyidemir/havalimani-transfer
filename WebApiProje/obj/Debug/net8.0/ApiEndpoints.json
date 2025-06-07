@@ -1,0 +1,1032 @@
+[
+  {
+    "ContainingType": "WebApiProje.Controllers.AracController",
+    "Method": "Delete",
+    "RelativePath": "Arac/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.AracController",
+    "Method": "GetById",
+    "RelativePath": "Arac/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.AracController",
+    "Method": "Insert",
+    "RelativePath": "Arac/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Arac.AracBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.AracController",
+    "Method": "Search",
+    "RelativePath": "Arac/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Arac.AracRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.AracController",
+    "Method": "Update",
+    "RelativePath": "Arac/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Arac.AracBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.AracOzelligiController",
+    "Method": "Delete",
+    "RelativePath": "AracOzelligi/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.AracOzelligiController",
+    "Method": "Insert",
+    "RelativePath": "AracOzelligi/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.AracOzelligi.AracOzelligiBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.AracOzelligiController",
+    "Method": "Search",
+    "RelativePath": "AracOzelligi/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.AracOzelligi.AracOzelligiRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.AracOzelligiController",
+    "Method": "Update",
+    "RelativePath": "AracOzelligi/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.AracOzelligi.AracOzelligiBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.BildirimController",
+    "Method": "Delete",
+    "RelativePath": "Bildirim/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.BildirimController",
+    "Method": "Insert",
+    "RelativePath": "Bildirim/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Bildirim.BildirimBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.BildirimController",
+    "Method": "Search",
+    "RelativePath": "Bildirim/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Bildirim.BildirimRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.BildirimController",
+    "Method": "Update",
+    "RelativePath": "Bildirim/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Bildirim.BildirimBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.FaturaController",
+    "Method": "Delete",
+    "RelativePath": "Fatura/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.FaturaController",
+    "Method": "Insert",
+    "RelativePath": "Fatura/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Fatura.FaturaBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.FaturaController",
+    "Method": "Search",
+    "RelativePath": "Fatura/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Fatura.FaturaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.FaturaController",
+    "Method": "Update",
+    "RelativePath": "Fatura/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Fatura.FaturaBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.HizmetNoktasiController",
+    "Method": "Delete",
+    "RelativePath": "HizmetNoktasi/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.HizmetNoktasiController",
+    "Method": "GetById",
+    "RelativePath": "HizmetNoktasi/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.HizmetNoktasiController",
+    "Method": "Insert",
+    "RelativePath": "HizmetNoktasi/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.HizmetNoktasi.HizmetNoktasiBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.HizmetNoktasiController",
+    "Method": "Search",
+    "RelativePath": "HizmetNoktasi/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.HizmetNoktasi.HizmetNoktasiRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.HizmetNoktasiController",
+    "Method": "Update",
+    "RelativePath": "HizmetNoktasi/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.HizmetNoktasi.HizmetNoktasiBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.KullaniciController",
+    "Method": "Delete",
+    "RelativePath": "Kullanici/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.KullaniciController",
+    "Method": "GetByEmail",
+    "RelativePath": "Kullanici/get-by-email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.KullaniciController",
+    "Method": "GetById",
+    "RelativePath": "Kullanici/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.KullaniciController",
+    "Method": "Insert",
+    "RelativePath": "Kullanici/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Kullanici.KullaniciBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.KullaniciController",
+    "Method": "Search",
+    "RelativePath": "Kullanici/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Kullanici.KullaniciRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.KullaniciController",
+    "Method": "Update",
+    "RelativePath": "Kullanici/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Kullanici.KullaniciBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.MesajController",
+    "Method": "Delete",
+    "RelativePath": "Mesaj/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.MesajController",
+    "Method": "Insert",
+    "RelativePath": "Mesaj/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Mesaj.MesajBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.MesajController",
+    "Method": "Search",
+    "RelativePath": "Mesaj/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Mesaj.MesajRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.MesajController",
+    "Method": "Update",
+    "RelativePath": "Mesaj/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Mesaj.MesajBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.OdemeController",
+    "Method": "Delete",
+    "RelativePath": "Odeme/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.OdemeController",
+    "Method": "Insert",
+    "RelativePath": "Odeme/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Odeme.OdemeBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.OdemeController",
+    "Method": "Search",
+    "RelativePath": "Odeme/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Odeme.OdemeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.OdemeController",
+    "Method": "Update",
+    "RelativePath": "Odeme/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Odeme.OdemeBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RezervasyonController",
+    "Method": "Delete",
+    "RelativePath": "Rezervasyon/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RezervasyonController",
+    "Method": "RezervasyonDetayListele",
+    "RelativePath": "Rezervasyon/detay-listele",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RezervasyonController",
+    "Method": "GetById",
+    "RelativePath": "Rezervasyon/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RezervasyonController",
+    "Method": "Insert",
+    "RelativePath": "Rezervasyon/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Rezervasyon.RezervasyonBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RezervasyonController",
+    "Method": "Search",
+    "RelativePath": "Rezervasyon/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Rezervasyon.RezervasyonRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RezervasyonController",
+    "Method": "Update",
+    "RelativePath": "Rezervasyon/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Rezervasyon.RezervasyonBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RolController",
+    "Method": "Delete",
+    "RelativePath": "Rol/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RolController",
+    "Method": "Insert",
+    "RelativePath": "Rol/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Rol.RolAdiRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RolController",
+    "Method": "Search",
+    "RelativePath": "Rol/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Rol.RolRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.RolController",
+    "Method": "Update",
+    "RelativePath": "Rol/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Rol.RolBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.SirketController",
+    "Method": "Delete",
+    "RelativePath": "Sirket/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.SirketController",
+    "Method": "GetById",
+    "RelativePath": "Sirket/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.SirketController",
+    "Method": "GetByUserId",
+    "RelativePath": "Sirket/get-by-user-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.SirketController",
+    "Method": "Insert",
+    "RelativePath": "Sirket/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "KullaniciId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ad",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VergiNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Telefon",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Adres",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AktifMi",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "KayitTarihi",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "LogoPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FaaliyetBelgesiPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "logoDosya",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "faaliyetBelgesiDosya",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.SirketController",
+    "Method": "Search",
+    "RelativePath": "Sirket/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Sirket.SirketRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.SirketController",
+    "Method": "Update",
+    "RelativePath": "Sirket/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Sirket.SirketBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.TransferController",
+    "Method": "Delete",
+    "RelativePath": "Transfer/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.TransferController",
+    "Method": "GetById",
+    "RelativePath": "Transfer/get-by-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.TransferController",
+    "Method": "Insert",
+    "RelativePath": "Transfer/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Transfer.TransferBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.TransferController",
+    "Method": "Search",
+    "RelativePath": "Transfer/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Transfer.TransferRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.TransferController",
+    "Method": "Update",
+    "RelativePath": "Transfer/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Transfer.TransferBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.YorumController",
+    "Method": "Delete",
+    "RelativePath": "Yorum/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Dto.IdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.YorumController",
+    "Method": "Insert",
+    "RelativePath": "Yorum/insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Yorum.YorumBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.YorumController",
+    "Method": "Search",
+    "RelativePath": "Yorum/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Yorum.YorumRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiProje.Controllers.YorumController",
+    "Method": "Update",
+    "RelativePath": "Yorum/update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebApiProje.Models.Request.Yorum.YorumBaseRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

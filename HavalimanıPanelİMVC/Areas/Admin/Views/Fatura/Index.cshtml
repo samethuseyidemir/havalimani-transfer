@@ -1,0 +1,57 @@
+﻿@model List<HavalimaniPanelMVC.Models.Fatura>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Fatura Listesi";
+}
+
+<h2 class="mb-4 text-primary">Fatura Listesi</h2>
+
+<a href="/Admin/Fatura/Create" class="btn btn-success mb-3">
+    <i class="bi bi-plus-lg"></i> Yeni Fatura Ekle
+</a>
+
+<table class="table table-bordered table-hover align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Rezervasyon</th>
+            <th>Tutar (₺)</th>
+            <th>Tarih</th>
+            <th>Durum</th>
+            <th style="width:150px;">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var f in Model)
+        {
+            <tr>
+                <td>@f.Id</td>
+                <td>@f.RezervasyonId</td>
+                <td>@f.Tutar</td>
+                <td>@f.FaturaTarihi.ToString("dd.MM.yyyy")</td>
+                <td>
+                    @if (f.AktifMi)
+                    {
+                        <span class="badge bg-success">Aktif</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">Pasif</span>
+                    }
+                </td>
+                <td>
+                    <a href="/Admin/Fatura/Edit/@f.Id" class="btn btn-sm btn-warning">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                    <form asp-action="Delete" method="post" asp-route-id="@f.Id" style="display:inline;"
+                          onsubmit="return confirm('Fatura silinsin mi?');">
+                        <button type="submit" class="btn btn-sm btn-danger">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,53 @@
+﻿@model HavalimaniPanelMVC.Models.Arac
+
+@{
+    Layout = "~/Views/Shared/_LayoutSirket.cshtml";
+    ViewData["Title"] = "➕ Yeni Araç Ekle";
+}
+
+<h2 class="mb-4">➕ Yeni Araç Ekle</h2>
+
+<!-- HATA MESAJI BURAYA -->
+@if (ViewBag.Hata != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Hata
+    </div>
+}
+
+<form asp-area="Sirket" asp-controller="Arac" asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="Marka" class="form-label"></label>
+        <input asp-for="Marka" class="form-control" />
+        <span asp-validation-for="Marka" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Model" class="form-label"></label>
+        <input asp-for="Model" class="form-control" />
+        <span asp-validation-for="Model" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Plaka" class="form-label"></label>
+        <input asp-for="Plaka" class="form-control" />
+        <span asp-validation-for="Plaka" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="KoltukSayisi" class="form-label"></label>
+        <input asp-for="KoltukSayisi" type="number" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="BagajKapasitesi" class="form-label"></label>
+        <input asp-for="BagajKapasitesi" type="number" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">✔️ Kaydet</button>
+    <a asp-area="Sirket" asp-controller="Arac" asp-action="Index" class="btn btn-secondary ms-2">İptal</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

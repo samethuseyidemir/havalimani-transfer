@@ -1,0 +1,63 @@
+﻿@model HavalimaniPanelMVC.Models.KullaniciRegisterModel
+
+@{
+    ViewData["Title"] = "Şirket Kayıt Ol";
+}
+
+<section class="vh-100 d-flex justify-content-center align-items-center bg-light">
+    <div class="card shadow p-4 border-0" style="width: 100%; max-width: 400px;">
+        <div class="text-center mb-4">
+            <i class="bi bi-building display-4 text-warning"></i>
+            <h4 class="mt-2 fw-bold">Şirket Olarak Kayıt Ol</h4>
+            <p class="text-muted small">Lütfen şirket bilgilerinizi giriniz</p>
+        </div>
+
+        <form method="post" asp-action="SirketRegister" asp-controller="Auth">
+            @* RolId = 2 (şirket) gizli alan olarak gönderiliyor *@
+            <input type="hidden" asp-for="RolId" value="2" />
+
+            <div class="mb-3">
+                <label asp-for="Ad" class="form-label">Ad</label>
+                <input type="text" class="form-control" asp-for="Ad" placeholder="Şirket Adı" required />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Ad)</span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Soyad" class="form-label">Sorumlu Kişi Soyadı</label>
+                <input type="text" class="form-control" asp-for="Soyad" placeholder="Sorumlu Ad-Soyadı" required />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Soyad)</span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">E-posta</label>
+                <input type="email" class="form-control" asp-for="Email" placeholder="ornek@sirket.com" required />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Email)</span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Sifre" class="form-label">Şifre</label>
+                <input type="password" class="form-control" asp-for="Sifre" placeholder="******" required />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Sifre)</span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Telefon" class="form-label">Telefon</label>
+                <input type="tel" class="form-control" asp-for="Telefon" placeholder="05XXXXXXXXX" required />
+                <span class="text-danger">@Html.ValidationMessageFor(m => m.Telefon)</span>
+            </div>
+
+            <button type="submit" class="btn btn-warning w-100">Şirket Olarak Kayıt Ol</button>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger mt-3">@ViewBag.Error</div>
+            }
+
+            <div class="text-center mt-3">
+                <a asp-action="Login" asp-controller="Auth" class="text-decoration-none small">
+                    Zaten hesabınız var mı? Giriş Yap
+                </a>
+            </div>
+        </form>
+    </div>
+</section>

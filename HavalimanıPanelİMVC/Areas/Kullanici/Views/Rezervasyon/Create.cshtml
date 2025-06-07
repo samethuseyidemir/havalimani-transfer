@@ -1,0 +1,36 @@
+﻿@model HavalimaniPanelMVC.Models.RezervasyonCreateViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Rezervasyon Yap";
+}
+
+<div class="container mt-5">
+    <h2 class="text-primary mb-4">Rezervasyon Yap</h2>
+
+    <form asp-action="Create" method="post">
+        <input type="hidden" asp-for="TransferId" />
+
+        <div class="mb-3">
+            <label class="form-label">Ad Soyad</label>
+            <input asp-for="AdSoyad" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">E-Posta</label>
+            <input asp-for="Email" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Telefon</label>
+            <input asp-for="Telefon" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">✅ Rezervasyon Oluştur</button>
+    </form>
+
+    @if (ViewBag.Hata != null)
+    {
+        <div class="alert alert-danger mt-3">@ViewBag.Hata</div>
+    }
+</div>

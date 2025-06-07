@@ -1,0 +1,52 @@
+﻿@model List<HavalimaniPanelMVC.Models.Arac>
+
+@{
+    Layout = "~/Views/Shared/_LayoutSirket.cshtml";
+    ViewData["Title"] = "🚗 Araçlarım";
+}
+
+<h2 class="mb-4">🚗 Araçlarım</h2>
+
+<div class="mb-3">
+    <a asp-area="Sirket" asp-controller="Arac" asp-action="Create" class="btn btn-primary">➕ Yeni Araç Ekle</a>
+</div>
+
+@if (TempData["Basarili"] != null)
+{
+    <div class="alert alert-success">@TempData["Basarili"]</div>
+}
+@if (TempData["Hata"] != null)
+{
+    <div class="alert alert-danger">@TempData["Hata"]</div>
+}
+
+<table class="table table-bordered table-hover">
+    <thead class="table-light">
+        <tr>
+            <th>Marka</th>
+            <th>Model</th>
+            <th>Plaka</th>
+            <th>Koltuk</th>
+            <th>Bagaj</th>
+            <th>Durum</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Marka</td>
+                <td>@item.Model</td>
+                <td>@item.Plaka</td>
+                <td>@item.KoltukSayisi</td>
+                <td>@item.BagajKapasitesi</td>
+                <td>@(item.AktifMi ? "Aktif" : "Pasif")</td>
+                <td>
+                    <a asp-area="Sirket" asp-controller="Arac" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning me-1">Düzenle</a>
+                    <a asp-area="Sirket" asp-controller="Arac" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

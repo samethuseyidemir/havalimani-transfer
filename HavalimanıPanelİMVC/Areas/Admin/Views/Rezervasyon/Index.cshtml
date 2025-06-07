@@ -1,0 +1,67 @@
+﻿@model HavalimaniPanelMVC.Models.RezervasyonSearchModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Rezervasyon Arama";
+}
+
+<h2 class="text-primary mb-3">Rezervasyon Arama</h2>
+
+<form method="post" class="row g-3 mb-4">
+    <div class="col-md-3">
+        <input type="text" asp-for="KullaniciAdSoyad" class="form-control" placeholder="Kullanıcı Ad Soyad" />
+    </div>
+    <div class="col-md-3">
+        <input type="text" asp-for="TransferBilgisi" class="form-control" placeholder="Transfer Bilgisi" />
+    </div>
+    <div class="col-md-2">
+        <input type="date" asp-for="MinTarih" class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <input type="date" asp-for="MaxTarih" class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <button type="submit" class="btn btn-primary w-100">
+            <i class="bi bi-search"></i> Ara
+        </button>
+    </div>
+</form>
+
+@if (Model.Sonuclar.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>Kullanıcı</th>
+                    <th>Transfer</th>
+                    <th>Tarih</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var r in Model.Sonuclar)
+                {
+                    <tr>
+                        <td>@r.KullaniciAdSoyad</td>
+                        <td>@r.TransferBilgisi</td>
+                        <td>@r.RezervasyonTarihi.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>
+                            <a href="/Admin/Rezervasyon/Edit/@r.Id" class="btn btn-sm btn-warning">
+                                <i class="bi bi-pencil-square"></i>
+                            </a>
+                            <a href="/Admin/Rezervasyon/Delete/@r.Id" class="btn btn-sm btn-danger"
+                               onclick="return confirm('Silmek istediğinize emin misiniz?');">
+                                <i class="bi bi-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <p class="text-muted">Arama yapılmadı veya sonuç bulunamadı.</p>
+}

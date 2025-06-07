@@ -1,0 +1,31 @@
+﻿@model HavalimaniPanelMVC.Models.Rezervasyon
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Rezervasyon Sil";
+}
+
+<h2 class="text-danger mb-3">Rezervasyon Sil</h2>
+
+<div class="alert alert-warning">
+    <h5>Bu rezervasyonu silmek istediğinize emin misiniz?</h5>
+    <p><strong>@Model.KullaniciAdSoyad</strong> - <strong>@Model.TransferBilgisi</strong></p>
+</div>
+
+<div class="mb-4">
+    <dl class="row">
+        <dt class="col-sm-3">Rezervasyon Tarihi</dt>
+        <dd class="col-sm-9">@Model.RezervasyonTarihi.ToString("dd.MM.yyyy HH:mm")</dd>
+    </dl>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <button type="submit" class="btn btn-danger">
+        <i class="bi bi-trash"></i> Sil
+    </button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">
+        <i class="bi bi-arrow-left"></i> İptal
+    </a>
+</form>

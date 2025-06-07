@@ -1,0 +1,114 @@
+﻿@model List<HavalimaniPanelMVC.Models.SirketViewModel>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Şirketler";
+    bool? aktifMi = ViewBag.AktifMiFilter as bool?;
+
+    // ✅ API'nin doğru base URL'sini burada belirtiyoruz
+    var apiBaseUrl = "https://localhost:7116";
+}
+
+<h2 class="text-primary mb-4">Şirketler</h2>
+
+<div class="btn-group mb-3" role="group" aria-label="Filtre">
+    <a asp-area="Admin"
+       asp-controller="Sirket"
+       asp-action="Index"
+       asp-route-aktifMi=""
+       class="btn @(aktifMi == null ? "btn-primary" : "btn-outline-primary")">
+        Tüm Şirketler
+    </a>
+    <a asp-area="Admin"
+       asp-controller="Sirket"
+       asp-action="Index"
+       asp-route-aktifMi="false"
+       class="btn @(aktifMi == false ? "btn-primary" : "btn-outline-primary")">
+        Onay Bekleyenler
+    </a>
+</div>
+
+@if (Model.Any())
+{
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th style="width:50px">#</th>
+                        <th>Şirket Adı</th>
+                        <th>Vergi No</th>
+                        <th>E-posta</th>
+                        <th>Telefon</th>
+                        <th style="width:80px">Logo</th>
+                        <th style="width:80px">Belge</th>
+                        <th style="width:150px">İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var s in Model)
+                {
+                            <tr>
+                                <td>@s.Id</td>
+                                <td>@s.Ad</td>
+                                <td>@s.VergiNo</td>
+                                <td>@s.Email</td>
+                                <td>@s.Telefon</td>
+                                <td class="text-center">
+                            @if (!string.IsNullOrEmpty(s.LogoPath))
+                            {
+                                            <a href="@($"{apiBaseUrl}{s.LogoPath}")" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                                <i class="bi bi-image"></i>
+                                            </a>
+                            }
+                            else
+                            {
+                                            <span class="text-muted small">Yok</span>
+                            }
+                                </td>
+                                <td class="text-center">
+                            @if (!string.IsNullOrEmpty(s.FaaliyetBelgesiPath))
+                            {
+                                            <a href="@($"{apiBaseUrl}{s.FaaliyetBelgesiPath}")" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                                <i class="bi bi-file-earmark-pdf"></i>
+                                            </a>
+                            }
+                            else
+                            {
+                                            <span class="text-muted small">Yok</span>
+                            }
+                                </td>
+                                <td class="text-center">
+                                    <form asp-area="Admin"
+                                          asp-controller="Sirket"
+                                          asp-action="Approve"
+                                          method="post"
+                                          class="d-inline">
+                                        <input type="hidden" name="id" value="@s.Id" />
+                                        <button type="submit" class="btn btn-sm btn-success" title="Onayla">
+                                            <i class="bi bi-check-circle"></i>
+                                        </button>
+                                    </form>
+                                    <form asp-area="Admin"
+                                          asp-controller="Sirket"
+                                          asp-action="Delete"
+                                          method="get"
+                                          class="d-inline"
+                                          onsubmit="return confirm('Silmek istediğinize emin misiniz?');">
+                                        <input type="hidden" name="id" value="@s.Id" />
+                                        <button type="submit" class="btn btn-sm btn-danger" title="Sil">
+                                            <i class="bi bi-trash"></i>
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+}
+else
+{
+        <div class="alert alert-info">
+            Görüntülenecek şirket kaydı bulunamadı.
+        </div>
+}
